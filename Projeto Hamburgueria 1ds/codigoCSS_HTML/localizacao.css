@@ -1,0 +1,189 @@
+/*Usando conteúdo de fora*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Bebas+Neue&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #000;
+}
+div.topo{
+    width: 100%;
+    background-position: center;
+    background-image: url('img/telaRock.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Todas as tag do nav*/
+header{
+    /*Tag pai, todas as alterações herdam desta*/
+    /*Edição de tag parte do flexbox*/
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    backdrop-filter: brightness(15%);
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+}
+/*Imagem do topo do navegador*/
+img#logoNav{
+    height: 4vw; 
+}
+p.separacaoPalavras{
+    display: flex;
+    font-size: 1.5vw;
+    color: #FDBD42;
+}
+a.btnNav{
+    color: #fff;
+    font-weight: 900;
+    text-decoration: none;
+    font-family: Rockstar;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    font-size: clamp(1vw, 2vw, 6vw);
+    /*Edição de tag parte do flexbox*/
+    display: flex;
+    align-items: center;
+}
+a.btnNav:hover{
+    text-decoration: underline;
+    transition: 0.1s 0.1s ease all;
+    font-size: clamp(1.5vw, 2.5vw, 8vw);
+    color: #BD0F0F;
+    transition: 0.4s;
+}
+h3.tituloNegocio{
+    /*backdrop-filter: blur(1em)*/;
+    padding-top: 16%;
+    padding-bottom: 16%;
+    text-align: center;
+    font-size: 4.5vw;
+    color: #FFF;
+    font-family: Antonio;
+}
+div#tituloEndereco{
+    height: 5vw;
+    text-align: center;
+    font-size: 2.9vw;
+    color: #000;
+    font-family: Antonio;
+    background-color: #BD0F0F;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+div.localMapa{
+    margin: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+section.iframeLocal{
+    background-color: #000;
+}
+section.slideShow{
+    display: flex;
+    align-items: center;
+}
+iframe{
+    border-radius: 5%;
+}
+p.setaSlideShow{
+    color: #FDBD42;
+    font-size: 2.5vw;
+    cursor: pointer;
+    margin: 2vw;
+}
+img.imgLocal{
+    border: 0.4vw double #FCF6DB;
+    border-radius: 5%;
+
+}
+
+/*Estilização do final da página*/
+footer.finalPag {
+    border-top: 0.2vw solid #BD0F0F;
+    background-color: #100e0e;
+}
+div.divImgFooter{
+    display: flex;
+    justify-content: center;
+}
+/* Estilização do texto */
+.textoFooter {
+    color: #FFF;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(90%, 100%, 11 0%);
+    margin: 1em;
+}
+/* Estilização da logo central */
+#imgLogoFooter{
+    height: clamp(2em,10em,25em);
+    border: 2px solid #FCF6DB;
+    border-radius: 50%;
+}
+
+.imgRedesSociais{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.infoEmpresa{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#enderecoFooter{
+    display: flex;
+    justify-content: center;
+}
+#faceFooter,
+#instaFooter,
+#zappFooter
+{
+    height: 90%;
+}
+#imgLogoFooter{
+    margin-top: 1%;
+}
+@media screen and (max-width: 651px) {
+    header{
+        height: 5vw;
+    }
+    iframe{
+        height: 12em;
+        width: 16em;
+    }
+    p.setaSlideShow{
+        font-size: 5vw;
+    }
+}
+@media screen and (max-width: 250px) {
+    header{
+        height: 5vw;
+    }
+    iframe{
+        height: 9em;
+        width: 10em;
+        margin-bottom: 2vw;
+    }
+    img.imgLocal{
+        height: 60vw;
+        width: 70vw;
+    }
+    div.localMapa{
+        margin: 12vw;
+    }
+    a.linkRedeSocialFooter{
+        height: 9vw;
+    }
+    p.textoFooter{
+        font-size: 3vw;
+    }
+}

@@ -1,0 +1,52 @@
+C:\Users\User\Desktop\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\bin\Debug\HamburgueriaElvisBurguer.exe.config
+C:\Users\User\Desktop\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\bin\Debug\HamburgueriaElvisBurguer.exe
+C:\Users\User\Desktop\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\bin\Debug\HamburgueriaElvisBurguer.pdb
+C:\Users\User\Desktop\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.Splash.resources
+C:\Users\User\Desktop\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.Properties.Resources.resources
+C:\Users\User\Desktop\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.csproj.GenerateResource.cache
+C:\Users\User\Desktop\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.exe
+C:\Users\User\Desktop\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.pdb
+C:\Users\User\Desktop\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.Login.resources
+C:\Users\User\Desktop\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.Menu.resources
+C:\Users\User\Desktop\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.CadastrarCliente.resources
+C:\Users\User\Desktop\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.CadastrarProduto.resources
+C:\Users\User\Desktop\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.ConsultarCliente.resources
+C:\Users\User\Desktop\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.ConsultarProduto.resources
+C:\Users\User\Desktop\CONTEÚDOS DS\PA PROF. JOTA & CIDADE\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\bin\Debug\HamburgueriaElvisBurguer.exe.config
+C:\Users\User\Desktop\CONTEÚDOS DS\PA PROF. JOTA & CIDADE\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\bin\Debug\HamburgueriaElvisBurguer.exe
+C:\Users\User\Desktop\CONTEÚDOS DS\PA PROF. JOTA & CIDADE\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\bin\Debug\HamburgueriaElvisBurguer.pdb
+C:\Users\User\Desktop\CONTEÚDOS DS\PA PROF. JOTA & CIDADE\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\CONTEÚDOS DS\PA PROF. JOTA & CIDADE\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.CadastrarCliente.resources
+C:\Users\User\Desktop\CONTEÚDOS DS\PA PROF. JOTA & CIDADE\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.CadastrarProduto.resources
+C:\Users\User\Desktop\CONTEÚDOS DS\PA PROF. JOTA & CIDADE\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.ConsultarCliente.resources
+C:\Users\User\Desktop\CONTEÚDOS DS\PA PROF. JOTA & CIDADE\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.ConsultarProduto.resources
+C:\Users\User\Desktop\CONTEÚDOS DS\PA PROF. JOTA & CIDADE\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.Login.resources
+C:\Users\User\Desktop\CONTEÚDOS DS\PA PROF. JOTA & CIDADE\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.Menu.resources
+C:\Users\User\Desktop\CONTEÚDOS DS\PA PROF. JOTA & CIDADE\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.Splash.resources
+C:\Users\User\Desktop\CONTEÚDOS DS\PA PROF. JOTA & CIDADE\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.Properties.Resources.resources
+C:\Users\User\Desktop\CONTEÚDOS DS\PA PROF. JOTA & CIDADE\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.csproj.GenerateResource.cache
+C:\Users\User\Desktop\CONTEÚDOS DS\PA PROF. JOTA & CIDADE\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CONTEÚDOS DS\PA PROF. JOTA & CIDADE\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.exe
+C:\Users\User\Desktop\CONTEÚDOS DS\PA PROF. JOTA & CIDADE\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.pdb
+T:\Grupo Web+\SISTEMA\ElvisBurguerCSharp-main\HamburgueriaElvisBurguer\bin\Debug\HamburgueriaElvisBurguer.exe.config
+T:\Grupo Web+\SISTEMA\ElvisBurguerCSharp-main\HamburgueriaElvisBurguer\bin\Debug\HamburgueriaElvisBurguer.exe.manifest
+T:\Grupo Web+\SISTEMA\ElvisBurguerCSharp-main\HamburgueriaElvisBurguer\bin\Debug\HamburgueriaElvisBurguer.application
+T:\Grupo Web+\SISTEMA\ElvisBurguerCSharp-main\HamburgueriaElvisBurguer\bin\Debug\HamburgueriaElvisBurguer.exe
+T:\Grupo Web+\SISTEMA\ElvisBurguerCSharp-main\HamburgueriaElvisBurguer\bin\Debug\HamburgueriaElvisBurguer.pdb
+T:\Grupo Web+\SISTEMA\ElvisBurguerCSharp-main\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.csproj.AssemblyReference.cache
+T:\Grupo Web+\SISTEMA\ElvisBurguerCSharp-main\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.CadastrarCliente.resources
+T:\Grupo Web+\SISTEMA\ElvisBurguerCSharp-main\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.CadastrarProduto.resources
+T:\Grupo Web+\SISTEMA\ElvisBurguerCSharp-main\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.ConsultarCliente.resources
+T:\Grupo Web+\SISTEMA\ElvisBurguerCSharp-main\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.ConsultarProduto.resources
+T:\Grupo Web+\SISTEMA\ElvisBurguerCSharp-main\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.Login.resources
+T:\Grupo Web+\SISTEMA\ElvisBurguerCSharp-main\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.Menu.resources
+T:\Grupo Web+\SISTEMA\ElvisBurguerCSharp-main\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.Splash.resources
+T:\Grupo Web+\SISTEMA\ElvisBurguerCSharp-main\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.Properties.Resources.resources
+T:\Grupo Web+\SISTEMA\ElvisBurguerCSharp-main\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.csproj.GenerateResource.cache
+T:\Grupo Web+\SISTEMA\ElvisBurguerCSharp-main\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.csproj.CoreCompileInputs.cache
+T:\Grupo Web+\SISTEMA\ElvisBurguerCSharp-main\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.exe.manifest
+T:\Grupo Web+\SISTEMA\ElvisBurguerCSharp-main\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.application
+T:\Grupo Web+\SISTEMA\ElvisBurguerCSharp-main\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.exe
+T:\Grupo Web+\SISTEMA\ElvisBurguerCSharp-main\HamburgueriaElvisBurguer\obj\Debug\HamburgueriaElvisBurguer.pdb

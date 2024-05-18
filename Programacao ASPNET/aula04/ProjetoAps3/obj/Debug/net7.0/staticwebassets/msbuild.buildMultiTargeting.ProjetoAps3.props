@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ProjetoAps3.props" />
+</Project>

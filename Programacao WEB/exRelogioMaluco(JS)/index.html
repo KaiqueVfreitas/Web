@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Relógio Maluco</title>
+</head>
+<body>
+    <section>
+        <form action="">
+            <h1>MEU RELOGIO MALUCO</h1>
+            <p>Data atual <input type="text" disabled id="numDia"> / <input type="text" disabled id="numMes"> / <input type="text" disabled id="numAno"></p>
+            <p>Nome do mês <input type="text" disabled id="nomeMes"></p>
+            <p>Hora atual <input type="text" disabled  id="horaAtualH"> : <input type="text" disabled id="horaAtualM"> : <input type="text" disabled id="horaAtualS"></p>
+            <p>Dia da semana <input type="text" disabled id="diaSemana"></p>
+            <input type="reset" value="Iniciar" id="inicio" onclick="inicia()">
+            <input type="reset" value="Limpar" id="Apagar">
+            <input type="button" value="Parar Relógio" id="pararRelogio" onclick="parar()">  
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

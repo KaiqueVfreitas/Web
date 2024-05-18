@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <section>
+            <h1>CALCULADORA COM PASSAGEM DE PARÂMETRO</h1>
+            <form action="">
+
+                <!--Input's que recebe os numeros do usuarios -->
+                <input type="text" name="" id="nm1">
+                <input type="text" name="" id="nm2">
+                <div class="btnsCalculo">
+                    <!--Input que faz conta de adição-->
+                    <input type="button" value="+" id="adicao" onclick="Adicao()">
+                    
+                    <!--Input que faz conta de subtração-->
+                    <input type="button" value="-" id="subtracao" onclick="Sub()">
+                    
+                    <!--Input que faz conta de divisão-->
+                    <input type="button" value="/" id="divisao" onclick="Divisao()">
+                    
+                    <!--Input que faz conta de multiplicação-->
+                    <input type="button" value="X" id="multiplicar" onclick="Multi()">
+                    
+                    <!--Input que faz conta de apagar todos os campos no forms-->
+                    <input type="reset" value="C" id="apagar">
+                </div>
+
+                <!--Input que mostra o resultado da conta-->
+                <input type="text" name="" disabled id="txtResultado">
+                
+                <!--Input que indica se o resultado é par ou impar-->
+                <input type="text" name="" disabled id="txtParImpar">
+                
+            </form>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

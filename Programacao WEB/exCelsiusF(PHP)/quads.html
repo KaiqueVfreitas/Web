@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quads.css">
+    <title>Calculadora de Peso Ideal</title>
+</head>
+<body>
+    <div class="calculadora">
+        <h1>Calculadora de Peso Ideal</h1>
+        <form id="formCalculadora" action="quads.php" method="post">
+            <label for="">QUAL VALOR DESEJA CONVERTER?</label>
+            <input type="text" id="htmlValor" name="htmlValor" required>
+            <label for="converter">COMO VOCE DESEJA CONVERTER?</label>
+            <select id="htmlCelFah" name="htmlCelFah" required>
+                <option value="celsius">FAHREINHET PARA CELSIUS</option>
+                <option value="fahreinhet">CELSIUS PARA FAHREINHET</option>
+            </select>
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+</body>
+</html>

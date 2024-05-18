@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="bask.jpg" alt="imagem da formula de Bhaskara">
+        <h1>Bhaskara:</h1>
+        <form>
+            <label>DIGITE O A:</label>
+            <input type="text" id="nmA" required />
+            <label>DIGITE O B:</label>
+            <input type="text" id="nmB" required />
+            <label>DIGITE O C:</label>
+            <input type="text" id="nmC" required />
+
+            <p>As raizes Reais são:</p>
+            <input type="text" id="raizPosi" disabled />
+            <input type="text" id="raizNega" disabled />
+            <input type="reset" value="Limpar" />
+            <input type="button" value="calcular" onClick="calc()" />
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

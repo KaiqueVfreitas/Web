@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+section {
+    text-align: center;
+}
+
+.btnsCalculo {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="button"], input[type="reset"] {
+    margin: 5px;
+}

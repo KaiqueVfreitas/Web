@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+}
+<link rel="stylesheet" href="~/css/Login.css"/>
+
+<div class="container">
+    <div class="container-login">
+        <div class="w-login">
+            <form class="login-form">
+                <span class="login-title">Faça o login</span>
+                <div class="w input">
+                    <input type="text" id="user" placeholder="Digite eu usuário:" />
+
+                </div>
+                <div class="w-input">
+                    <input type="text" id="senha" placeholder="Digite eu senha:" />
+
+                </div>
+                <div class="login-btn">
+                    <button class="login-form-btn" onclick="validar()">
+                        Login
+                    </button>
+                    <ul class="login-utils">
+                        <li class="">
+                            <span class="text1">
+                                Esqueceu sua senha?
+                            </span>
+                        </li>
+
+                        <li>
+                            <span class="text1">
+                                Não tem conta?
+                            </span>
+
+                            <a href="#" class="text2">
+                                Criar
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </div>
+    <img src="~/img/Web Login Form Template Template Download on Pngtree.jpeg" />
+</div>
+

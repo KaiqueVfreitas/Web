@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quads.css">
+    <title>Calculadora de Peso Ideal</title>
+</head>
+<body>
+    <div class="calculadora">
+        <h1>Calculadora de Peso Ideal</h1>
+        <form id="formCalculadora" action="quads.php" method="post">
+            <label for="altura">Altura (m):</label>
+            <input type="text" id="htmlAltura" name="htmlAltura" required>
+            <label for="pesoAtual">Qual é seu peso atual?</label>
+            <input type="text" id="htmlPesoAtual" name="htmlPesoAtual" required>
+            <label for="genero">Gênero:</label>
+            <select id="htmlGenero" name="htmlGenero" required>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+            </select>
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+</body>
+</html>

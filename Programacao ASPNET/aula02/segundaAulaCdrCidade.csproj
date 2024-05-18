@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\michael-afonso-z8Tul255kGg-unsplash.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Img\" />
+  </ItemGroup>
+
+</Project>

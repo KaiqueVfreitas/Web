@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logoSemNada.png" type="image/x-icon">
+    <link rel="stylesheet" href="localizacao.css">
+    <title>LOCAL</title>
+</head>
+
+<body>
+    <!--CONTEÚDO QUE FICA NO INÍCIO DA PAGINA-->
+    <div class="topo">
+        <!--CONTEÚDO DA BARRA DE NAVEGAÇÃO-->
+        <header>
+            <img src="img/elvisBurguerPretoHorizontalSemSlogan-removebg-preview.png" alt="" id="logoNav">
+            <!--SÃO BARRAS ENTRE OS LINKS QUE LEVA PARA OUTRAS PÁGINAS-->
+            <p class="separacaoPalavras">|</p>
+            <!--LINK QUE LEVA PARA PÁGINA INÍCIO-->
+            <a href="../../index.html" class="btnNav">Inicio</a>
+            <p class="separacaoPalavras">|</p>
+            <!--LINK QUE LEVA PARA PÁGINA CARDÁPIO-->
+            <a href="../cardápio/cardapio.html" class="btnNav">Cardapio</a>
+            <p class="separacaoPalavras">|</p>
+            <!--LINK QUE LEVA PARA PÁGINA SOBRE-NOS-->
+            <a href="../SobreNos/sobreNos.html" class="btnNav">Sobre-nos</a>
+        </header>
+        <h3 class="tituloNegocio">NOSSO AMBIENTE</h3>
+    </div>
+    <!--CONTEÚDO PRINCIPAL DA PÁGINA-->
+    <main>
+        <section class="localizacao">
+            <div id="tituloEndereco">
+                <h3>ENDEREÇO</h3>
+            </div>
+            <div class="localMapa">
+                <!--MAPA DA PÁGINA-->
+                <section class="iframeLocal">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.31258688325!2d-46.73303502467115!3d-23.521257078827382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8c040eab571%3A0xd053f5cbc9f751ea!2sR.%20Guaip%C3%A1%20-%20Vila%20Leopoldina%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005089-001!5e0!3m2!1spt-BR!2sbr!4v1699898180031!5m2!1spt-BR!2sbr"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+                <!--SETA QUE VOLTA AS IMAGENS-->
+                <section class="slideShow">
+                    <a id="prev" onclick="prevSlide()"><p class="setaSlideShow">&#10094;</p>
+                    </a>
+                    <!--SLIDESHOW QUE PASSA AS FOTOS DO LOCAL-->
+                    <section class="imgSlideShow">
+                        <img src="img/ambienteElvis02(editado).jpg" alt="" class="imgLocal">
+                        <img src="img/ambienteElvis03(editado).jpg" alt="" class="imgLocal">
+                        <img src="img/ambienteElvis04(editado).jpeg" alt="" class="imgLocal">
+                        <img src="img/ambienteElvis05(editado).jpeg" alt="" class="imgLocal">
+                        <img src="img/ambienteElvis06(editado).jpeg" alt="" class="imgLocal">
+                        <img src="img/ambienteElvis07(editado).jpeg" alt="" class="imgLocal">
+                        <img src="img/ambienteElvis09(editado).jpeg" alt="" class="imgLocal">
+                    </section>
+
+                    <!--SETA QUE PASSA AS IMAGENS-->
+                    <a id="next" onclick="nextSlide()">
+                    <p class="setaSlideShow">&#10095;</p></a>
+                
+                </section>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="finalPag">
+        <br class="quebraLinhaFooter">
+        <div class="imgRedesSociais">
+            <a href="https://web.whatsapp.com/" class="linkRedeSocialFooter">
+                <img id="zappFooter" src="img/iconeFooterWhatsapp.png" alt="" class="redeSocialFooter">
+            </a>
+            <a href="https://www.facebook.com/people/Hamburgueria-Elvis-Burguer/61552659592001/?mibextid=LQQJ4d" class="linkRedeSocialFooter">
+                <img id="faceFooter" src="img/iconeFooterFacebook.png" alt="" class="redeSocialFooter">
+            </a>
+            <a href="https://instagram.com/elvis1burguer?igshid=OGQ5ZDc2ODk2ZA==" class="linkRedeSocialFooter">
+                <img id="instaFooter" src="img/iconeFooterInstagram.png" alt="" class="redeSocialFooter">
+            </a>
+        </div>
+        <br class="quebraLinhaFooter">
+        <p class="textoFooter" id="enderecoFooter">Rua Guaipá 678, São Paulo, SP - BRASIL</p>
+        <div class="infoEmpresa">
+            <p class="textoFooter" id="numeroFooter">+55 11 93315-6578</p>
+            <p class="textoFooter" id="emailFooter">burguerelvis@gmail.com</p>
+        </div>
+    </footer>
+    <script src="localizacao.js"></script>
+</body>
+
+</html>

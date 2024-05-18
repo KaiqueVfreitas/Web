@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    background-image: linear-gradient(to right, yellow 50%, bisque 50%);
+}
+img{
+    width: 25%;
+    height: auto;
+
+}
+img#banner {
+    margin-top: 100px;
+    width: 80%;
+    height: auto;
+}
+#info {
+    width: 80%;
+    height: 250px;
+    background-color: #F9F9F9;
+    margin-top: 100px;
+    padding-left: 10%;
+    padding-top: 40px;
+    margin-left: 10%;
+}
+
+
+.container-info {
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    width: 25%;
+    height: 250px;
+    display: inline-block;
+}
+
+.text-info {
+    font-size: 12px;
+    font-weight: normal;
+    color: #666;
+    display: flex;
+}
+
+p {
+    text-align: center;
+}

@@ -1,0 +1,237 @@
+/*Usando conteúdo de fora*/
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&family=Bebas+Neue&family=Oswald:wght@400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #000;
+}
+div.topo{
+    width: 100%;
+    background-position: center;
+    background-image: url('img/telasHamburguerEscuro.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Todas as tag do nav*/
+header{
+    /*Tag pai, todas as alterações herdam desta*/
+    /*Edição de tag parte do flexbox*/
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    backdrop-filter: brightness(15%);
+    position: fixed;
+    width: 100%;
+    align-items: center;
+}
+/*Imagem do topo do navegador*/
+img#logoNav{
+    height: 5vw; 
+}
+p.separacaoPalavras{
+    display: flex;
+    font-size: 2vw;
+    color: #FDBD42;
+}
+a.btnNav{
+    color: #fff;
+    font-weight: 900;
+    text-decoration: none;
+    font-family: Rockstar;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    font-size: clamp(1vw, 2vw, 6vw);
+    /*Edição de tag parte do flexbox*/
+    display: flex;
+    align-items: center;
+}
+a.btnNav:hover{
+    text-decoration: underline;
+    transition: 0.1s 0.1s ease all;
+    font-size: clamp(1.5vw, 2.5vw, 8vw);
+    color: #BD0F0F
+}
+h3.tituloNegocio{
+    /*backdrop-filter: blur(1em)*/;
+    padding-top: 16%;
+    padding-bottom: 16%;
+    text-align: center;
+    font-size: 6vw;
+    color: #FFF;
+    font-family: Antonio;
+}
+/*Mexendo no meio da página*/
+div.meioPag{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #000;
+}
+
+/*As tag dentro da parte que descreverá a elvis burguer*/
+section.nossoNegocio{
+    background-color: #1d1a1a;
+    width: 70%;
+    border-radius: 2%;
+    margin-top: -3%;
+    
+}
+
+/*Estilo do texto sobre o negócio e a historia da elvis*/
+p.txtNossoNegocio,
+p.txtNossaHistoria{
+    color: #858585;
+    margin: 2vw;
+    font-size: 1.3em;
+    
+}
+hr.linhaSeparacaoSobreNosHistoria{
+    border: 0.2vw solid #BD0F0F;
+    margin-top: 2%;
+}
+div.separacaoSobreNosHistoria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: clamp(5vw,10vw,20vw);
+    background-color: #FDBD42;
+}
+section.nossaHistoria{
+    background-color: #1d1a1a;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+/*Estilizando o titulo de historia*/
+h3.tituloHistoria{
+    margin: 4%;
+    font-size: 4vw;
+    font-family: Antonio;
+}
+div.imgNossaHistoria{
+    padding-top: 10%;
+    margin-left: 2%;
+}
+div.imgNossaHistoria,
+div.containerNossaHistoria
+{
+    padding: 5%;
+}
+/*Imagem que vai contar sobre a historia da elvis*/
+img#ambienteElvis{
+    border: 0.1vw solid #FCF6DB;
+    width: 30vw;
+    height: 40vw;
+}
+
+/*Estilização do final da página*/
+footer.finalPag {
+    background-color: #000;
+    border-top: #BD0F0F solid 0.2vw;
+}
+div.divImgFooter{
+    display: flex;
+    justify-content: center;
+}
+/* Estilização do texto */
+.textoFooter {
+    color: #FFF;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(90%, 100%, 11 0%);
+    margin: 1em;
+}
+/* Estilização da logo central */
+img#imgLogoFooter{
+    height: clamp(2em,10em,25em);
+    border: 2px solid #FCF6DB;
+    border-radius: 50%;
+}
+div.imgRedesSociais{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.infoEmpresa{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#enderecoFooter{
+    display: flex;
+    justify-content: center;
+}
+#faceFooter,
+#instaFooter,
+#zappFooter
+{
+    height: 90%;
+}
+#imgLogoFooter{
+    margin-top: 1%;
+}
+@media screen and (max-width: 650px) {
+    header{
+        height: 8vw;
+    }
+    img#logoNav{
+        height: 6vw;
+    }
+    p.separacaoPalavras{
+        font-size: 2vw;
+    }
+    a.btnNav{
+        font-size: 3vw;
+    }
+    p.txtNossoNegocio,
+    p.txtNossaHistoria{
+    color: #858585;
+    margin: 2vw;
+    font-size: 1em;
+    
+}
+    h3.tituloHistoria,
+    h3.tituloNegocio{
+        font-size: 8vw;
+    }
+    div.separacaoSobreNosHistoria{
+        height: 20vw;
+    }
+    section.nossaHistoria{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    img#ambienteElvis{
+        height: 100vw;
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 300px){
+    footer.finalPag{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    img#imgLogoFooter{
+        margin-top: 10%;
+        height: 35vw;
+    }
+    p.textoFooter{
+        font-size: clamp(4vw,5vw,7vw);
+    }
+    div.divImgFooter{
+        display: flex;
+        justify-content: center;
+    }
+    div.imgRedesSociais{
+        flex-wrap: wrap;
+        margin-top: 10%;
+    }
+    img.redeSocialFooter{
+        height: 60%;
+        width: 60%;
+    }
+}

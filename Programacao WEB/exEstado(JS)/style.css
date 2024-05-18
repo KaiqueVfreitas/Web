@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 15% 30% 15% 30%;
+
+}
+select{
+    font-size: 1.5vw;
+    width: 20%;
+}

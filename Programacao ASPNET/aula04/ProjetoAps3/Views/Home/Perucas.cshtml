@@ -1,0 +1,30 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h2>Aula 01</h2>
+
+<form action="Perucas" method="post">
+    <label>Valor 1</label><br />
+    <input type="text" name="valor1" value="" /><br />
+
+    <label>Valor 2</label><br />
+    <input type="text" name="valor2" value="" /><br />
+
+    <label>Valor 3</label><br />
+    <input type="text" name="valor3" value="" /><br />
+
+    <label>Valor 4</label><br />
+    <input type="text" name="valor4" value="" /><br />
+    <br />
+
+    <input type="submit" name="btnCalc" value="Calcular" /><br />
+
+    @ViewBag.soma
+    <br />
+    @ViewBag.media
+    <br />
+    @ViewBag.Res
+
+</form>

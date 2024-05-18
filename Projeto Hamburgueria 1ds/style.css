@@ -1,0 +1,142 @@
+/*Usando conteúdo de fora*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Bebas+Neue&family=Oswald:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #000;
+    overflow-x: hidden;
+}
+/*Todas as tag do nav*/
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
+}
+/*Imagem do topo do navegador*/
+img#logoNav{
+    height: 5.5vw; 
+}
+p.separacaoPalavras{
+    display: flex;
+    font-size: 2.5vw;
+    color: #FDBD42;
+}
+a.txtNav{
+    color: #fff;
+    font-weight: 900;
+    text-decoration: none;
+    font-family: Rockstar;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    font-size: clamp(1vw, 2vw, 6vw);
+    /*Edição de tag parte do flexbox*/
+    display: flex;
+    align-items: center;
+}
+a.txtNav:hover{
+    color: #BD0F0F;
+    text-decoration: underline;
+    transition: 0.2s 0.2s ease all;
+    font-size: clamp(1.5vw, 2.5vw, 8vw);
+}
+div.slide{
+    z-index: 0;
+}
+[data-component="slideshow"] .slide{
+    display: none;
+}
+
+[data-component="slideshow"] .slide.active{
+    display: block;
+}
+
+img.imgSlide{
+    width: 100%;
+    height: 40vw;
+}
+/*Estilização do final da página*/
+footer{
+    background-color: #000;
+    border-top: #BD0F0F solid 0.2vw;
+}
+div.divImgFooter{
+    display: flex;
+    justify-content: center;
+}
+/* Estilização do texto */
+.textoFooter {
+    color: #FFF;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(90%, 100%, 11 0%);
+    margin: 1em;
+}
+/* Estilização da logo central */
+img#imgLogoFooter{
+    height: clamp(2em,10em,25em);
+    border: 2px solid #FCF6DB;
+    border-radius: 50%;
+}
+
+div.imgRedesSociais{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.infoEmpresa{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#enderecoFooter{
+    display: flex;
+    justify-content: center;
+}
+#faceFooter,
+#instaFooter,
+#zappFooter
+{
+    height: 90%;
+}
+#imgLogoFooter{
+    margin-top: 1%;
+}
+@media screen and (max-width: 650px) {
+    img.imgSlide {
+        width: 100%;
+        height: 80vw;
+    }
+}
+@media screen and (max-width: 450px) {
+    img.imgSlide {
+        width: 100%;
+        height: 50vw;
+    }
+    footer{
+        height: 1%;
+    }
+    img#imgLogoFooter{
+        margin-bottom: 5%;
+        height: 5em;
+        border: 0.1vw solid #fff;
+    }
+    a.linkRedeSocialFooter{
+        margin: 1vw;
+        height: 1.5em;
+    }
+    img.redeSocialFooter{
+        height: 1vw;
+    }
+    p.textoFooter{
+        font-size: 2vw;
+    }
+}
+@media screen and (max-width: 250px) {
+    p.textoFooter{
+        font-size: 3vw;
+    }
+}

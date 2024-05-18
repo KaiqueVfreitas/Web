@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\Formacoes\\Projetos feitos na ETEC\\2Semestre\\Programacao ASPNET\\terceiraAulaCdrCidade\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF39296-4F52-44FB-87A6-8717221F5D8E}|terceiraAulaCdrCidade\\terceiraAulaCdrCidade.csproj|c:\\users\\kaiqu\\onedrive\\documentos\\formacoes\\projetos feitos na etec\\2semestre\\programacao aspnet\\terceiraaulacdrcidade\\terceiraaulacdrcidade\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FF39296-4F52-44FB-87A6-8717221F5D8E}|terceiraAulaCdrCidade\\terceiraAulaCdrCidade.csproj|solutionrelative:terceiraaulacdrcidade\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF39296-4F52-44FB-87A6-8717221F5D8E}|terceiraAulaCdrCidade\\terceiraAulaCdrCidade.csproj|c:\\users\\kaiqu\\onedrive\\documentos\\formacoes\\projetos feitos na etec\\2semestre\\programacao aspnet\\terceiraaulacdrcidade\\terceiraaulacdrcidade\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF39296-4F52-44FB-87A6-8717221F5D8E}|terceiraAulaCdrCidade\\terceiraAulaCdrCidade.csproj|solutionrelative:terceiraaulacdrcidade\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF39296-4F52-44FB-87A6-8717221F5D8E}|terceiraAulaCdrCidade\\terceiraAulaCdrCidade.csproj|c:\\users\\kaiqu\\onedrive\\documentos\\formacoes\\projetos feitos na etec\\2semestre\\programacao aspnet\\terceiraaulacdrcidade\\terceiraaulacdrcidade\\views\\home\\peruca.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FF39296-4F52-44FB-87A6-8717221F5D8E}|terceiraAulaCdrCidade\\terceiraAulaCdrCidade.csproj|solutionrelative:terceiraaulacdrcidade\\views\\home\\peruca.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF39296-4F52-44FB-87A6-8717221F5D8E}|terceiraAulaCdrCidade\\terceiraAulaCdrCidade.csproj|c:\\users\\kaiqu\\onedrive\\documentos\\formacoes\\projetos feitos na etec\\2semestre\\programacao aspnet\\terceiraaulacdrcidade\\terceiraaulacdrcidade\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FF39296-4F52-44FB-87A6-8717221F5D8E}|terceiraAulaCdrCidade\\terceiraAulaCdrCidade.csproj|solutionrelative:terceiraaulacdrcidade\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Peruca.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\Formacoes\\Projetos feitos na ETEC\\2Semestre\\Programacao ASPNET\\terceiraAulaCdrCidade\\terceiraAulaCdrCidade\\Views\\Home\\Peruca.cshtml",
+              "RelativeDocumentMoniker": "terceiraAulaCdrCidade\\Views\\Home\\Peruca.cshtml",
+              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\Formacoes\\Projetos feitos na ETEC\\2Semestre\\Programacao ASPNET\\terceiraAulaCdrCidade\\terceiraAulaCdrCidade\\Views\\Home\\Peruca.cshtml",
+              "RelativeToolTip": "terceiraAulaCdrCidade\\Views\\Home\\Peruca.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T17:53:49.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\Formacoes\\Projetos feitos na ETEC\\2Semestre\\Programacao ASPNET\\terceiraAulaCdrCidade\\terceiraAulaCdrCidade\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "terceiraAulaCdrCidade\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\Formacoes\\Projetos feitos na ETEC\\2Semestre\\Programacao ASPNET\\terceiraAulaCdrCidade\\terceiraAulaCdrCidade\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "terceiraAulaCdrCidade\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAkwDAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T17:09:59.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\Formacoes\\Projetos feitos na ETEC\\2Semestre\\Programacao ASPNET\\terceiraAulaCdrCidade\\terceiraAulaCdrCidade\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "terceiraAulaCdrCidade\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\Formacoes\\Projetos feitos na ETEC\\2Semestre\\Programacao ASPNET\\terceiraAulaCdrCidade\\terceiraAulaCdrCidade\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "terceiraAulaCdrCidade\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T17:03:42.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\Formacoes\\Projetos feitos na ETEC\\2Semestre\\Programacao ASPNET\\terceiraAulaCdrCidade\\terceiraAulaCdrCidade\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "terceiraAulaCdrCidade\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\Formacoes\\Projetos feitos na ETEC\\2Semestre\\Programacao ASPNET\\terceiraAulaCdrCidade\\terceiraAulaCdrCidade\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "terceiraAulaCdrCidade\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T16:49:02.763Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
