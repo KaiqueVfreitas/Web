@@ -1,0 +1,18 @@
+Integrar banco de dados é necessario baixar um packages em soluciotion. 
+Basta clicar em 'solution' com o botão direito 
+E clicar em 'NuGetPackage '
+Ir browse e procurar por 'MySql.Data'
+Depois entrar na pasta Program.cs e adicionar este codigo:
+// Adicionar serviços 
+builder.Services.AddScoped<IClienteRepositorio, ClienteRepositorio>();
+
+Controller decide o que será feito com os dados 
+
+
+View tela que o cliente ve
+
+Model guarda dados e as regras sobre como essses dados podem ser usados
+
+
+
+z
