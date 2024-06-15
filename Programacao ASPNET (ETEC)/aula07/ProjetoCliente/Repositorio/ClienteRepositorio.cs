@@ -1,11 +1,13 @@
-﻿using MySql.Data.MySqlClient;
+﻿using Microsoft.AspNetCore.Mvc;
+using MySql.Data.MySqlClient;
 using ProjetoCliente.Models;
 using System.Data;
 
 namespace ProjetoCliente.Repositorio
 {
-    public class ClienteRepositorio
+    public class ClienteRepositorio : IClienteRepositorio
     {
+
         private readonly string _conexaoMySQL;
         public ClienteRepositorio(IConfiguration conf)
         {
@@ -41,6 +43,25 @@ namespace ProjetoCliente.Repositorio
                 return Clientlist;
 
             }
+        }
+
+        public void Cadastrar(Cliente cliente)
+        {
+            using (var conexao = new MySqlConnection(_conexaoMySQL))
+
+            {
+                conexao.Open();
+
+                MySqlCommand cmd = new MySqlCommand("insert into tbCliente(nome,telefone,email) values (@nome, @telefone, @email)", conexao); // @: PARAMETRO
+
+                cmd.Parameters.Add("@nome", MySqlDbType.VarChar).Value = cliente.Nome;
+                cmd.Parameters.Add("@telefone", MySqlDbType.VarChar).Value = cliente.Telefone;
+                cmd.Parameters.Add("@email", MySqlDbType.VarChar).Value = cliente.Email;
+                 
+                cmd.ExecuteNonQuery();
+                conexao.Close();
+            }
+
         }
     }
 }

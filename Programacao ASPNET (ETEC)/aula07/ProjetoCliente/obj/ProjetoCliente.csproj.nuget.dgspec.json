@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\Web\\Programacao ASPNET (ETEC)\\aula07\\ProjetoCliente\\ProjetoCliente.csproj": {}
+    "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\aula07\\ProjetoCliente\\ProjetoCliente.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\Web\\Programacao ASPNET (ETEC)\\aula07\\ProjetoCliente\\ProjetoCliente.csproj": {
+    "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\aula07\\ProjetoCliente\\ProjetoCliente.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\Web\\Programacao ASPNET (ETEC)\\aula07\\ProjetoCliente\\ProjetoCliente.csproj",
+        "projectUniqueName": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\aula07\\ProjetoCliente\\ProjetoCliente.csproj",
         "projectName": "ProjetoCliente",
-        "projectPath": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\Web\\Programacao ASPNET (ETEC)\\aula07\\ProjetoCliente\\ProjetoCliente.csproj",
+        "projectPath": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\aula07\\ProjetoCliente\\ProjetoCliente.csproj",
         "packagesPath": "C:\\Users\\kaiqu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\Web\\Programacao ASPNET (ETEC)\\aula07\\ProjetoCliente\\obj\\",
+        "outputPath": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\aula07\\ProjetoCliente\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

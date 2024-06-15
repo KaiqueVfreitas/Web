@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using ProjetoCliente.Models;
+using ProjetoCliente.Repositorio;
 using System.Diagnostics;
 
 namespace ProjetoCliente.Controllers
@@ -22,11 +23,7 @@ namespace ProjetoCliente.Controllers
 		{
 			return View();
 		}
+   
 
-		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-		public IActionResult Error()
-		{
-			return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-		}
 	}
 }

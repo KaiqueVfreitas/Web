@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5C1voEcLKsVqSe4ADZ2IWF96DPhTabOZDqz1tftSSi73ZXp2eXz248k1EvUmNUx9GblmsHB7hYghcVUxScgOiw==",
+  "dgSpecHash": "7i5aP+DluxlBoKh/m3leZuoGUbX2xABmJ/WIWhIS8CP/GjvZnxFs1yfW6oGlRIRn7jGHXWi1ALzDfLUgETVRyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\Web\\Programacao ASPNET (ETEC)\\aula07\\ProjetoCliente\\ProjetoCliente.csproj",
+  "projectFilePath": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\aula07\\ProjetoCliente\\ProjetoCliente.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kaiqu\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\kaiqu\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",

@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\aula08\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7E09F95-AF10-4320-BCA9-ECE80C1B8CEF}|aula08\\aula08.csproj|c:\\users\\kaiqu\\onedrive\\documentos\\etec\\web\\programacao aspnet (etec)\\aula08\\aula08\\views\\tabela\\tabela.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7E09F95-AF10-4320-BCA9-ECE80C1B8CEF}|aula08\\aula08.csproj|solutionrelative:aula08\\views\\tabela\\tabela.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7E09F95-AF10-4320-BCA9-ECE80C1B8CEF}|aula08\\aula08.csproj|c:\\users\\kaiqu\\onedrive\\documentos\\etec\\web\\programacao aspnet (etec)\\aula08\\aula08\\repositorio\\tabelarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7E09F95-AF10-4320-BCA9-ECE80C1B8CEF}|aula08\\aula08.csproj|solutionrelative:aula08\\repositorio\\tabelarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7E09F95-AF10-4320-BCA9-ECE80C1B8CEF}|aula08\\aula08.csproj|c:\\users\\kaiqu\\onedrive\\documentos\\etec\\web\\programacao aspnet (etec)\\aula08\\aula08\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7E09F95-AF10-4320-BCA9-ECE80C1B8CEF}|aula08\\aula08.csproj|solutionrelative:aula08\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7E09F95-AF10-4320-BCA9-ECE80C1B8CEF}|aula08\\aula08.csproj|c:\\users\\kaiqu\\onedrive\\documentos\\etec\\web\\programacao aspnet (etec)\\aula08\\aula08\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7E09F95-AF10-4320-BCA9-ECE80C1B8CEF}|aula08\\aula08.csproj|solutionrelative:aula08\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7E09F95-AF10-4320-BCA9-ECE80C1B8CEF}|aula08\\aula08.csproj|c:\\users\\kaiqu\\onedrive\\documentos\\etec\\web\\programacao aspnet (etec)\\aula08\\aula08\\controllers\\tabelacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7E09F95-AF10-4320-BCA9-ECE80C1B8CEF}|aula08\\aula08.csproj|solutionrelative:aula08\\controllers\\tabelacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tabela.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\aula08\\aula08\\Views\\Tabela\\Tabela.cshtml",
+              "RelativeDocumentMoniker": "aula08\\Views\\Tabela\\Tabela.cshtml",
+              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\aula08\\aula08\\Views\\Tabela\\Tabela.cshtml",
+              "RelativeToolTip": "aula08\\Views\\Tabela\\Tabela.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T18:09:26.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\aula08\\aula08\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "aula08\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\aula08\\aula08\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "aula08\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T18:09:20.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TabelaController.cs",
+              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\aula08\\aula08\\Controllers\\TabelaController.cs",
+              "RelativeDocumentMoniker": "aula08\\Controllers\\TabelaController.cs",
+              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\aula08\\aula08\\Controllers\\TabelaController.cs",
+              "RelativeToolTip": "aula08\\Controllers\\TabelaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T18:04:54.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TabelaRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\aula08\\aula08\\Repositorio\\TabelaRepositorio.cs",
+              "RelativeDocumentMoniker": "aula08\\Repositorio\\TabelaRepositorio.cs",
+              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\aula08\\aula08\\Repositorio\\TabelaRepositorio.cs",
+              "RelativeToolTip": "aula08\\Repositorio\\TabelaRepositorio.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAswCIAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T18:00:50.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\aula08\\aula08\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "aula08\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\aula08\\aula08\\Models\\Usuario.cs",
+              "RelativeToolTip": "aula08\\Models\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T17:42:08.858Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
