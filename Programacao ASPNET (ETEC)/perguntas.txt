@@ -1,0 +1,3 @@
+O que são IEnumerable? 
+O que significa o core antes do MVC no ASP.NET? 
+Se models são para banco de dados pq temos que criar uma pasta chamada data?

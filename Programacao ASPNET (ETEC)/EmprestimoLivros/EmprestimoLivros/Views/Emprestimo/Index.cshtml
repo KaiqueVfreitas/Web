@@ -1,0 +1,36 @@
+﻿<!--Devemos colocar nossa model que é esqueleto para o banco de dados-->
+@model  IEnumerable<EmprestimoModel>
+<!--Devemos colocar a model dentro do ienumerable para receber os dados de maneira sequencial-->
+
+<!--Tabela foi pega da documentação do bootstrap-->
+<table class="table table-hover table-dark">
+    <thead>
+        <tr>
+            <th scope="col">RECEBEDOR</th>
+            <th scope="col">FORNECEDOR</th>
+            <th scope="col">LIVRO</th>
+            <th scope="col">ÚLTIMA ATUALIZAÇÃO</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <!--Codigo C# são colocados depois de arrobas'-->
+        <!--Este if serve para verificar se o model é vazio-->
+        @if(Model != null)
+        {
+            <!--Passando o contexto para a pagina atual-->
+            @foreach(var emprestimo in Model)
+            {
+                <!--Parametros dentro do foreach está indicando que para cada item dentro da variavel emprestimo dentro da model-->
+                <tr>
+                    <th scope="row">@emprestimo.Recebedor'</th> <!--Adicionando as colunas do banco de dados na parte de view-->
+                    <td>@emprestimo.Fornecedor'</td> <!--Para cada coluna é necessario ter um arroba para indicar que é codigo C# e precisa da variavel emprestimo para indicar que está visitando a model--> 
+                    <td>@emprestimo.LivroEmprestado'</td>
+                    <td>@emprestimo.DataUltimaAtualizacao'</td>
+                </tr>
+            }
+
+        }
+        
+    </tbody>
+</table>
