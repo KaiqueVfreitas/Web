@@ -1,7 +1,12 @@
 ﻿<!--Devemos colocar nossa model que é esqueleto para o banco de dados-->
 @model  IEnumerable<EmprestimoModel>
 <!--Devemos colocar a model dentro do ienumerable para receber os dados de maneira sequencial-->
-
+<div class="container">
+    <div class="justify-content-between d-flex align-items-center mb-5">
+        <h1>EMPRÉSTIMOS</h1>
+        <a asp-controller="Emprestimo" asp-action="Cadastrar" class="btn btn-success mx-2">Cadastrar novo empréstimo</a>
+    </div>
+</div>
 <!--Tabela foi pega da documentação do bootstrap-->
 <table class="table table-hover table-dark">
     <thead>

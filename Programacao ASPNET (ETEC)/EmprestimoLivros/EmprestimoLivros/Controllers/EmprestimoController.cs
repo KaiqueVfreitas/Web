@@ -33,6 +33,32 @@ namespace EmprestimoLivros.Controllers
             IEnumerable<EmprestimoModel> emprestimos = _db.Emprestimos;
             return View(emprestimos);
         }
+
+        /*
+            Fazendo o metodo para aparecer a tela de cadastrar
+         */
+        public IActionResult Cadastrar()
+        {
+            return View();
+        }
+        /*
+            Métodos quando cadastrados são get, mas quando adicionamos o httpPost ele vira post,
+            ou seja, para de receber dados e passa a enviar dados
+         */
+        [HttpPost]
+        public IActionResult Cadastrar(EmprestimoModel emprestimo)
+        {
+            /*_db é a variavel que representa todo o banco de dados, emprestimo é a variavel que representa a estrutura do banco*/
+            if (ModelState.IsValid)
+            {
+                _db.Emprestimos.Add(emprestimo);
+                _db.SaveChanges(); 
+
+                return RedirectToAction("Index");
+            }
+
+            return View();
+        }
         
     }
 }
