@@ -60,5 +60,68 @@ namespace EmprestimoLivros.Controllers
             return View();
         }
         
+        [HttpPost]
+        public IActionResult Editar(EmprestimoModel emprestimo)
+        {
+            if(ModelState.IsValid)
+            {
+                _db.Emprestimos.Update(emprestimo);
+                _db.SaveChanges();
+
+                return RedirectToAction("Index");
+            }
+            return View(emprestimo);
+        }
+        
+        [HttpPost]
+        public IActionResult Excluir(EmprestimoModel emprestimo)
+        {
+            if (emprestimo == null)
+            {
+                return NotFound();
+            }
+            _db.Emprestimos.Remove(emprestimo);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+
+
+        [HttpGet]
+        public IActionResult Excluir(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            EmprestimoModel emprestimo = _db.Emprestimos.FirstOrDefault(x => x.Id == id);
+            if (emprestimo == null)
+            {
+                return NotFound();
+            }
+            return View(emprestimo);
+
+
+        }
+        [HttpGet]
+        public IActionResult Editar(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+
+            EmprestimoModel emprestimo = _db.Emprestimos.FirstOrDefault(x => x.Id == id);
+            if (emprestimo == null)
+            {
+                return NotFound();
+
+            }
+            else
+            {
+                return View();
+            }
+
+        }
     }
 }
