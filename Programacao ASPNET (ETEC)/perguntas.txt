@@ -1,3 +1,19 @@
+Gui, preciso que voce avise o cidade que utilizei dois tutoriais para fazer este sistema, por isso de estar diferente do que ele fez, segue o link dos dois tutoriais:
+
+https://www.youtube.com/watch?v=RDw1tS1-7Cs&list=PL8l5r7-11AADIYThFwVOoM3L_m0Dfuiga&index=2
+https://www.youtube.com/watch?v=DQqnAv0lvyM
+
+Caso seja necessario uma explicação da minha parte, pois não so copiei e colei o codigo. 
+Entendi desta forma o ASP.NET Core MVC
+Models, uma especie de ponte entre os registros do banco de dados e a visao do cliente, nele temos que colocar todo o "esqueleto" do banco de dados, cada uma das colunas do banco de dado tem que estar ali, não obrigatorio, avisos do que fazer se um input estiver vazio são feitos lá, dados que não aparece para o cliente tambem são colocados no models para dizer como prosseguir no registro, neste caso foi isso que fiz no ' public DateTime DataUltimaAtualizacao { get; set; } = DateTime.Now; '.
+Views, toda parte de estrutura vista pelo cliente (html) 
+Controller, a parte de back-end em que ficara responsavel de concilhar o model e views, como assim? O Controller manda o View aparecer na tela do cliente, pega os dados preenchidos, manda para o model que preenche cada coluna conforme o registro. 
+Tá para que serve a pasta Data?
+A pasta data está sendo utilizada como a Classe que cria a tabela no banco de dados e serve como conection string no Controller e seus métodos.
+A pasta Shared e seus arquivos, o arquivo Program.cs e appsettings.json, são configurações pré setadas para todas as telas, por isso que a conection string está nele. O ASP.NET tambem suporta Json e JS e seus frameworks, eu tentei usar um framework de filtragem de dados e pesquisa como se fosse no HTML, CSS e JS convencional, infelizmente não deu certo. 
+
+
+
 O que são IEnumerable? 
 O que significa o core antes do MVC no ASP.NET? 
 Se models são para banco de dados pq temos que criar uma pasta chamada data?

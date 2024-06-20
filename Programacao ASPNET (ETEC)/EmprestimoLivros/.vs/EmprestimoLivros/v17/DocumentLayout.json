@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\EmprestimoLivros\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0C2E25C3-1F95-4534-ADBC-F1C36378D3D9}|EmprestimoLivros\\EmprestimoLivros.csproj|c:\\users\\kaiqu\\onedrive\\documentos\\etec\\web\\programacao aspnet (etec)\\emprestimolivros\\emprestimolivros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2E25C3-1F95-4534-ADBC-F1C36378D3D9}|EmprestimoLivros\\EmprestimoLivros.csproj|solutionrelative:emprestimolivros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2E25C3-1F95-4534-ADBC-F1C36378D3D9}|EmprestimoLivros\\EmprestimoLivros.csproj|c:\\users\\kaiqu\\onedrive\\documentos\\etec\\web\\programacao aspnet (etec)\\emprestimolivros\\emprestimolivros\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2E25C3-1F95-4534-ADBC-F1C36378D3D9}|EmprestimoLivros\\EmprestimoLivros.csproj|solutionrelative:emprestimolivros\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2E25C3-1F95-4534-ADBC-F1C36378D3D9}|EmprestimoLivros\\EmprestimoLivros.csproj|c:\\users\\kaiqu\\onedrive\\documentos\\etec\\web\\programacao aspnet (etec)\\emprestimolivros\\emprestimolivros\\models\\emprestimomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2E25C3-1F95-4534-ADBC-F1C36378D3D9}|EmprestimoLivros\\EmprestimoLivros.csproj|solutionrelative:emprestimolivros\\models\\emprestimomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0C2E25C3-1F95-4534-ADBC-F1C36378D3D9}|EmprestimoLivros\\EmprestimoLivros.csproj|c:\\users\\kaiqu\\onedrive\\documentos\\etec\\web\\programacao aspnet (etec)\\emprestimolivros\\emprestimolivros\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0C2E25C3-1F95-4534-ADBC-F1C36378D3D9}|EmprestimoLivros\\EmprestimoLivros.csproj|solutionrelative:emprestimolivros\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -47,6 +59,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\EmprestimoLivros\\EmprestimoLivros\\Program.cs",
+              "RelativeDocumentMoniker": "EmprestimoLivros\\Program.cs",
+              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\EmprestimoLivros\\EmprestimoLivros\\Program.cs",
+              "RelativeToolTip": "EmprestimoLivros\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T12:33:38.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\EmprestimoLivros\\EmprestimoLivros\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "EmprestimoLivros\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\EmprestimoLivros\\EmprestimoLivros\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "EmprestimoLivros\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T12:28:58.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmprestimoModel.cs",
+              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\EmprestimoLivros\\EmprestimoLivros\\Models\\EmprestimoModel.cs",
+              "RelativeDocumentMoniker": "EmprestimoLivros\\Models\\EmprestimoModel.cs",
+              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\EmprestimoLivros\\EmprestimoLivros\\Models\\EmprestimoModel.cs",
+              "RelativeToolTip": "EmprestimoLivros\\Models\\EmprestimoModel.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T12:22:47.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\EmprestimoLivros\\EmprestimoLivros\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "EmprestimoLivros\\Views\\Shared\\_Layout.cshtml",
@@ -59,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\EmprestimoLivros\\EmprestimoLivros\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "EmprestimoLivros\\wwwroot\\js\\site.js",
@@ -71,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\EmprestimoLivros\\EmprestimoLivros\\Views\\Emprestimo\\Index.cshtml",
               "RelativeDocumentMoniker": "EmprestimoLivros\\Views\\Emprestimo\\Index.cshtml",
@@ -83,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Materia.css",
               "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\EmprestimoLivros\\EmprestimoLivros\\wwwroot\\css\\Materia.css",
               "RelativeDocumentMoniker": "EmprestimoLivros\\wwwroot\\css\\Materia.css",
@@ -95,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Excluir.cshtml",
               "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\EmprestimoLivros\\EmprestimoLivros\\Views\\Emprestimo\\Excluir.cshtml",
               "RelativeDocumentMoniker": "EmprestimoLivros\\Views\\Emprestimo\\Excluir.cshtml",
@@ -107,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Cadastrar.cshtml",
               "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\Documentos\\ETEC\\Web\\Programacao ASPNET (ETEC)\\EmprestimoLivros\\EmprestimoLivros\\Views\\Emprestimo\\Cadastrar.cshtml",
               "RelativeDocumentMoniker": "EmprestimoLivros\\Views\\Emprestimo\\Cadastrar.cshtml",
