@@ -1,46 +1,44 @@
 ﻿<!--Devemos colocar nossa model que é esqueleto para o banco de dados-->
-@model  IEnumerable<EmprestimoModel>
+@model IEnumerable<EmprestimoModel>
 <!--Devemos colocar a model dentro do ienumerable para receber os dados de maneira sequencial-->
 <div class="container">
     <div class="justify-content-between d-flex align-items-center mb-5">
         <h1>EMPRÉSTIMOS</h1>
-        <a asp-controller="Emprestimo" asp-action="Cadastrar" class="btn btn-success mx-2">Cadastrar novo empréstimo</a>
+        <a asp-controller="Emprestimo" asp-action="Cadastrar" class="btn btn-success mx-2"><i class="bi bi-file-earmark-plus-fill"></i>Cadastrar novo empréstimo</a>
     </div>
-</div>
-<!--Tabela foi pega da documentação do bootstrap-->
-<table class="table table-hover table-dark">
-    <thead>
-        <tr>
-            <th scope="col">RECEBEDOR</th>
-            <th scope="col">FORNECEDOR</th>
-            <th scope="col">LIVRO</th>
-            <th scope="col">ÚLTIMA ATUALIZAÇÃO</th>
-        </tr>
-    </thead>
-    <tbody>
-        
-        <!--Codigo C# são colocados depois de arrobas'-->
-        <!--Este if serve para verificar se o model é vazio-->
-        @if(Model != null)
-        {
-            <!--Passando o contexto para a pagina atual-->
-            @foreach(var emprestimo in Model)
+    <!--Tabela foi pega da documentação do bootstrap-->
+    <table id="Emprestimo" class="table table-hover table-dark">
+        <thead>
+            <tr>
+                <th scope="col">RECEBEDOR</th>
+                <th scope="col">FORNECEDOR</th>
+                <th scope="col">LIVRO</th>
+                <th scope="col">ÚLTIMA ATUALIZAÇÃO</th>
+                <th scope="col">AÇÕES</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--Codigo C# são colocados depois de arrobas'-->
+            <!--Este if serve para verificar se o model é vazio-->
+            @if (Model != null)
             {
-                <!--Parametros dentro do foreach está indicando que para cada item dentro da variavel emprestimo dentro da model-->
-                <tr>
-                    <th scope="row">@emprestimo.Recebedor'</th> <!--Adicionando as colunas do banco de dados na parte de view-->
-                    <td>@emprestimo.Fornecedor'</td> <!--Para cada coluna é necessario ter um arroba para indicar que é codigo C# e precisa da variavel emprestimo para indicar que está visitando a model--> 
-                    <td>@emprestimo.LivroEmprestado'</td>
-                    <td>@emprestimo.DataUltimaAtualizacao'</td>
-                    <td>
-                        <!--No asp route id, basicamente está dizendo que na mesma rota que estamos chamado o editar é para levar informaçoes-->
-                        <a asp-controller="Emprestimo" asp-action="Editar" asp-route-id="@emprestimo.Id" class="btn btn-warning mx-2">EDITAR</a>
-                        <a asp-controller="Emprestimo" asp-action="Excluir" asp-route-id="@emprestimo.Id" class="btn btn-danger mx-2">EXCLUIR</a>
-                    </td>
-                </tr>
+                <!--Passando o contexto para a pagina atual-->
+                @foreach (var emprestimo in Model)
+                {
+                    <!--Parametros dentro do foreach está indicando que para cada item dentro da variavel emprestimo dentro da model-->
+                    <tr>
+                        <th scope="row">@emprestimo.Recebedor</th> <!--Adicionando as colunas do banco de dados na parte de view-->
+                        <td>@emprestimo.Fornecedor</td> <!--Para cada coluna é necessario ter um arroba para indicar que é codigo C# e precisa da variavel emprestimo para indicar que está visitando a model-->
+                        <td>@emprestimo.LivroEmprestado</td>
+                        <td>@emprestimo.DataUltimaAtualizacao</td>
+                        <td>
+                            <!--No asp route id, basicamente está dizendo que na mesma rota que estamos chamado o editar é para levar informaçoes-->
+                            <a asp-controller="Emprestimo" asp-action="Editar" asp-route-id="@emprestimo.Id" class="btn btn-warning mx-2"><i class="bi bi-pencil-square mx-2"></i>EDITAR</a>
+                            <a asp-controller="Emprestimo" asp-action="Excluir" asp-route-id="@emprestimo.Id" class="btn btn-danger mx-2"><i class="bi bi-trash-fill mx-2"></i>EXCLUIR</a>
+                        </td>
+                    </tr>
+                }
             }
-
-        }
-        
-    </tbody>
-</table>
+        </tbody>
+    </table>
+</div>
