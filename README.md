@@ -1,0 +1,1 @@
+⚠️ Atenção: Projetos desenvolvidos voltados para a web. As pastas 'Programação ASP.NET', 'Web', 'Projeto Hamburgueria 1DS' e 'Sistemas Milhas' contêm projetos desenvolvidos na Etec. As demais pastas são de prática autônoma.
